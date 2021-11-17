@@ -1,0 +1,13 @@
+{
+  "dockerImageBuilder": "ritclizup/rit-typescript-builder",
+  "inputs": [
+    {
+      "label": "Type your name: ",
+      "name": "rit_input_text",
+      "required": true,
+      "type": "text"
+    }
+  ],
+  "template": "typescript",
+  "templateRelease": "2.17.0"
+}
